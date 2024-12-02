@@ -11,4 +11,16 @@ name varchar2
 borrow number
 }  
 students "1" -- "many" books
+
+
+entity history{
+<<PK>> id number
+book_name
+student_name
+<<FK>>  student_id
+<<FK>>  book_id
+
+}  
+students "1" -- "many" history
+books "1" -- "many" history
 @enduml
