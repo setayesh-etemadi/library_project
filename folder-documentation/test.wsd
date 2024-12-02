@@ -14,8 +14,8 @@ borrow number
 
 entity history{
 <<PK>> id number
-book_name
-student_name
+book_name varchar2
+student_name varchar2
 <<FK>>  student_id
 <<FK>>  book_id
 borrowed_date: DateTime
