@@ -10,7 +10,6 @@ name varchar2
 <<FK>>  books_id
 borrow number
 }  
-students "1" -- "many" books
 
 
 entity history{
