@@ -19,6 +19,8 @@ book_name
 student_name
 <<FK>>  student_id
 <<FK>>  book_id
+borrowed_date: DateTime
+return_date: DateTime 
 
 }  
 students "1" -- "many" history
